@@ -21,7 +21,6 @@ This project aims to design and implement an embedded system using STM32 Blackpi
 * CH340
 
 ## 3. Peripheral Mapping
-
 | Peripheral | STM32 Pin(s) | Mode / Function |
 | :--- | :--- | :--- |
 | **LED Group 1** | PB9, PB7, PB5, PB3 | Output Push-Pull |
@@ -32,3 +31,7 @@ This project aims to design and implement an embedded system using STM32 Blackpi
 | **Passive Buzzer** | PB1 | AF2 (TIM3_CH4) PWM |
 | **Potentiometer** | PA4 | ADC1_CH4 |
 | **Serial (Link)** | PA2 (TX), PA3 (RX) | USART2 (HC-05/CH340) |
+
+## 4. Schematic Design
+![SCHEMATIC_LED LIGHTS WITH VIRTUAL AND PHYSICAL CONTROLLER USING STM32_page-0001](https://github.com/user-attachments/assets/48fc02dd-1f52-46b1-bec7-e835b2f375d1)
+
